@@ -1,0 +1,740 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    /* border: 2px solid red; */
+    height: 3.7vmax;
+    width: 100vw;
+    display: flex;
+    background-color: #0C73EB;
+    box-shadow: 0 0 0 10px (rgba(0, 0, 0, 0, 1px));
+    position: sticky;
+    z-index: 20000;
+
+}
+
+/* ................... */
+
+
+.left {
+    width: 20%;
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.left img {
+    /* height: 0vmax; */
+    width: 9vmax;
+}
+
+/* ..................... */
+.middle {
+    width: 40%;
+    /* border: 2px solid rgb(223, 123, 9); */
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+
+
+.middle img {
+    height: 1.5vmax;
+    width: 1.5vmax;
+    margin-left: -8%;
+
+}
+
+.search {
+    outline: none;
+    border: 2px solid grey;
+    /* border: noqne; */
+    width: 38vmax;
+    height: 2.5vmax;
+    font-family: Roboto, Arial, sans-serif;
+    border-radius: 0.2vmax;
+    box-shadow: 0.5px 0.5px 0.5px 0.5px rgb(189, 187, 187);
+
+}
+
+.search img {
+    cursor: grab;
+}
+
+/* ...................... */
+
+
+.right {
+    width: 25%;
+    /* border: 2px solid rgb(30, 4, 107); */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.right a {
+    text-decoration: none;
+    font-family: Roboto, Arial, sans-serif;
+    color: white;
+    /* font-weight: bold; */
+    font-size: 1.1vmax;
+}
+
+.right button {
+    font-family: Roboto, Arial, sans-serif;
+    height: 2.5vmax;
+    width: 5vmax;
+    font-weight: bold;
+    color: #0C73EB;
+}
+
+/* ...................... */
+
+.end {
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.end a {
+    color: white;
+    text-decoration: none;
+    font-family: Roboto, Arial, sans-serif;
+}
+
+/* ....................... */
+
+.below-nav {
+    height: 20vh;
+    width: 100vw;
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* ....................... */
+.discount {
+    /* border: 2px solid rebeccapurple; */
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+
+.discount img {
+    cursor: pointer;
+    height: 5vmax;
+    width: 5vmax;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.discount a {
+    font-weight: bold;
+    text-decoration: none;
+    font-family: Roboto, Arial, sans-serif;
+    color: black;
+    margin-top: 2%;
+    margin-left: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ...................... */
+
+.mobiles {
+    /* border: 2px solid rebeccapurple; */
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+
+.mobiles img {
+    cursor: pointer;
+
+    height: 5vmax;
+    width: 5vmax;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mobiles a {
+    font-weight: bold;
+
+    text-decoration: none;
+    font-family: Roboto, Arial, sans-serif;
+    color: black;
+    margin-top: 2%;
+    margin-left: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ................... */
+
+.electronics {
+    /* border: 2px solid rebeccapurple; */
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+
+.electronics img {
+    height: 5vmax;
+    cursor: pointer;
+
+    width: 5vmax;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.electronics a {
+    font-weight: bold;
+
+    text-decoration: none;
+    font-family: Roboto, Arial, sans-serif;
+    color: black;
+    margin-top: 2%;
+    margin-left: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* \......................... */
+
+.tv {
+    /* border: 2px solid rebeccapurple; */
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+
+.tv img {
+    cursor: pointer;
+
+    height: 5vmax;
+    width: 5vmax;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tv a {
+    font-weight: bold;
+
+    text-decoration: none;
+    font-family: Roboto, Arial, sans-serif;
+    color: black;
+    margin-top: 2%;
+    margin-left: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ................. */
+
+.fashion {
+    /* border: 2px solid rebeccapurple; */
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+
+.fashion img {
+    cursor: pointer;
+
+    height: 5vmax;
+    width: 5vmax;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fashion a {
+    font-weight: bold;
+
+    text-decoration: none;
+    font-family: Roboto, Arial, sans-serif;
+    color: black;
+    margin-top: 2%;
+    margin-left: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ...................... */
+
+.beauty {
+    /* border: 2px solid rebeccapurple; */
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+
+.beauty img {
+    cursor: pointer;
+
+    height: 5vmax;
+    width: 5vmax;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.beauty a {
+    font-weight: bold;
+
+    text-decoration: none;
+    font-family: Roboto, Arial, sans-serif;
+    color: black;
+    margin-top: 2%;
+    margin-left: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ....................... */
+.home {
+    /* border: 2px solid rebeccapurple; */
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+
+.home img {
+    cursor: pointer;
+
+    height: 5vmax;
+    width: 5vmax;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home a {
+    font-weight: bold;
+
+    text-decoration: none;
+    font-family: Roboto, Arial, sans-serif;
+    color: black;
+    margin-top: 2%;
+    margin-left: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* .......................... */
+
+.flights {
+    /* border: 2px solid rebeccapurple; */
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+
+.flights img {
+    cursor: pointer;
+
+    height: 5vmax;
+    width: 5vmax;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flights a {
+    font-weight: bold;
+
+    text-decoration: none;
+    font-family: Roboto, Arial, sans-serif;
+    color: black;
+    margin-top: 2%;
+    margin-left: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ..........................qww */
+
+.below-product {
+    height: 37vh;
+    width: 100vw;
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #c5bfbf;
+    border: 1px solid black;
+}
+
+.below-product img {
+    width: 99vw;
+    height: 35vh;
+
+}
+
+/* ....................... */
+
+.product-real {
+    /* border: 2px solid blue; */
+    height: 60vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+/* ........... */
+
+.iphone {
+    /* border: 2px solid red; */
+
+}
+
+.iphone img {
+    cursor: pointer;
+    height: 19vmax;
+    width: 15vmax;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.iphone a {
+    font-family: Roboto, Arial, sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ................. */
+
+.samsung {
+    /* border: 2px solid red; */
+
+}
+
+.samsung img {
+    cursor: pointer;
+
+    height: 19vmax;
+    width: 15vmax;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.samsung a {
+    font-family: Roboto, Arial, sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ............................. */
+
+.pixel {
+    /* border: 2px solid red; */
+
+}
+
+.pixel img {
+    cursor: pointer;
+
+    height: 15vmax;
+    width: 15vmax;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pixel a {
+    font-family: Roboto, Arial, sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ................. */
+.flask {
+    /* border: 2px solid red; */
+
+}
+
+.flask img {
+    cursor: pointer;
+
+    height: 15vmax;
+    width: 15vmax;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flask a {
+    font-family: Roboto, Arial, sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* ...................... */
+
+/* ....................... */
+
+.product-sec2 {
+    /* border: 2px solid blue; */
+    height: 60vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+/* ........... */
+
+.camera {
+    /* border: 2px solid red; */
+
+}
+
+.camera img {
+    cursor: pointer;
+    height: 15vmax;
+    width: 12vmax;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.camera a {
+    font-family: Roboto, Arial, sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ................. */
+
+.shaver {
+    /* border: 2px solid red; */
+
+}
+
+.shaver img {
+    cursor: pointer;
+
+    height: 15vmax;
+    width: 10vmax;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.shaver a {
+    font-family: Roboto, Arial, sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ............................. */
+
+.monitor {
+    /* border: 2px solid red; */
+
+}
+
+.monitor img {
+    cursor: pointer;
+
+    height: 15vmax;
+    width: 15vmax;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.monitor a {
+    font-family: Roboto, Arial, sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ................. */
+.powerbank {
+    /* border: 2px solid red; */
+
+}
+
+.powerbank img {
+    cursor: pointer;
+
+    height: 15vmax;
+    width: 15vmax;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.powerbank a {
+    font-family: Roboto, Arial, sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* ...................... */
+
+.product-sec3 {
+    /* border: 2px solid blue; */
+    height: 60vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+/* ........... */
+
+.printer {
+    /* border: 2px solid red; */
+
+}
+
+.printer img {
+    cursor: pointer;
+    height: 15vmax;
+    width: 15vmax;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.printer a {
+    font-family: Roboto, Arial, sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ................. */
+
+.dryer {
+    /* border: 2px solid red; */
+
+}
+
+.dryer img {
+    cursor: pointer;
+
+    height: 15vmax;
+    width: 15vmax;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dryer a {
+    font-family: Roboto, Arial, sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ............................. */
+
+.straight {
+    /* border: 2px solid red; */
+
+}
+
+.straight img {
+    cursor: pointer;
+
+    height: 15vmax;
+    width: 15vmax;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.straight a {
+    font-family: Roboto, Arial, sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ................. */
+.projector {
+    /* border: 2px solid red; */
+
+}
+
+.projector img {
+    cursor: pointer;
+
+    height: 15vmax;
+    width: 15vmax;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.projector a {
+    font-family: Roboto, Arial, sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* ...................... */
